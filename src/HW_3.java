@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 public class HW_3 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите первое число: ");
         int number_1 = scanner.nextInt();
@@ -12,6 +12,24 @@ public class HW_3 {
         char option;
         option = scanner.next().charAt(0);// метод возвращает символ, расположенный по указанному индексу строки
         int result;
+        if (option == '+') {
+            System.out.println(number_1 + "+" + number_2 + " = " + (number_1 + number_2));
+        } else if (option == '-') {
+            System.out.println(number_1 + "-" + number_2 + " = " + (number_1 - number_2));
+        } else if (option == '*') {
+            System.out.println(number_1 + "*" + number_2 + " = " + (number_1 * number_2));
+        } else if (option == '/') {
+            System.out.println(number_1 + "/" + number_2 + " = " + (number_1 / number_2));
+        }  else {
+                System.err.println("Неправильно введен знак действия!");
+          }
+
+    }
+}
+
+// реализация с использованием оператора switch:
+
+/*
         switch(option){
             case '+':
                 result = number_1 + number_2;
@@ -32,3 +50,4 @@ public class HW_3 {
         }
     }
 }
+*/
