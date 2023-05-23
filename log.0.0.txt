@@ -1,0 +1,58 @@
+мая 23, 2023 1:45:33 PM ClassWork2.Task2 write
+INFO: Записано
+мая 23, 2023 1:56:28 PM ClassWork2.Task2 write
+INFO: Записано
+мая 23, 2023 7:26:49 PM HomeWork2.Task4 main
+INFO: Введите первое число: 
+мая 23, 2023 7:27:04 PM HomeWork2.Task4 main
+INFO: Введите второе число: 
+мая 23, 2023 7:27:11 PM HomeWork2.Task4 main
+INFO: Введите знак операции + - * / :
+мая 23, 2023 7:32:05 PM HomeWork2.Task4 main
+INFO: Введите первое число: 
+мая 23, 2023 7:32:11 PM HomeWork2.Task4 main
+INFO: Введите второе число: 
+мая 23, 2023 7:32:15 PM HomeWork2.Task4 main
+INFO: Введите знак операции + - * / :
+мая 23, 2023 7:32:18 PM HomeWork2.Task4 main
+INFO: 10+20 = 30
+мая 23, 2023 7:39:18 PM HomeWork2.Task4 main
+INFO: Введите первое число: 
+мая 23, 2023 7:39:26 PM HomeWork2.Task4 main
+INFO: Введите второе число: 
+мая 23, 2023 7:39:31 PM HomeWork2.Task4 main
+INFO: Введите знак операции + - * / :
+мая 23, 2023 7:39:40 PM HomeWork2.Task4 main
+INFO: 10/20 = 30
+мая 23, 2023 7:40:35 PM HomeWork2.Task4 main
+INFO: Введите первое число: 
+мая 23, 2023 7:40:41 PM HomeWork2.Task4 main
+INFO: Введите второе число: 
+мая 23, 2023 7:40:44 PM HomeWork2.Task4 main
+INFO: Введите знак операции + - * / :
+мая 23, 2023 7:40:54 PM HomeWork2.Task4 main
+INFO: 10/5 = 15
+мая 23, 2023 7:41:03 PM HomeWork2.Task4 main
+INFO: Введите первое число: 
+мая 23, 2023 7:41:07 PM HomeWork2.Task4 main
+INFO: Введите второе число: 
+мая 23, 2023 7:41:12 PM HomeWork2.Task4 main
+INFO: Введите знак операции + - * / :
+мая 23, 2023 7:41:15 PM HomeWork2.Task4 main
+INFO: 20*10 = 30
+мая 23, 2023 7:41:55 PM HomeWork2.Task4 main
+INFO: Введите первое число: 
+мая 23, 2023 7:42:12 PM HomeWork2.Task4 main
+INFO: Введите второе число: 
+мая 23, 2023 7:42:16 PM HomeWork2.Task4 main
+INFO: Введите знак операции + - * / :
+мая 23, 2023 7:42:21 PM HomeWork2.Task4 main
+INFO: 20/10 = 2
+мая 23, 2023 7:42:27 PM HomeWork2.Task4 main
+INFO: Введите первое число: 
+мая 23, 2023 7:42:31 PM HomeWork2.Task4 main
+INFO: Введите второе число: 
+мая 23, 2023 7:42:34 PM HomeWork2.Task4 main
+INFO: Введите знак операции + - * / :
+мая 23, 2023 7:42:38 PM HomeWork2.Task4 main
+INFO: 30*20 = 600
