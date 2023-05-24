@@ -11,7 +11,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 public class Task1 {
     public static void main(String[] args) {
-    Map<String, String> map = new LinkedHashMap<>();
+    Map<String, String> map = new LinkedHashMap<>(); // структура данных, содержащая набор пар “ключ-значение”
     map.put("name","Ivanov");
     map.put("country","Russia");
     map.put("city","Moscow");
@@ -29,7 +29,7 @@ public class Task1 {
             result.append(pair.getKey()).append(" = '").append(pair.getValue()).append("' and ");
         }
         if (result.length() > 5)
-            result.delete(result.length() - 5, result.length());
+            result.delete(result.length() - 5, result.length());// убираем лишнее 'and' в конце фразы
 
         return result.toString();
     }
