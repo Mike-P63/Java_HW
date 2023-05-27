@@ -8,6 +8,7 @@ import java.util.*;
 //2) Найти минимальное значение
 //3) Найти максимальное значение
 //4) Найти среднее значение
+
 public class Task1 {
     static Random random = new Random();
     static LinkedList<Integer> ints = new LinkedList<>();
@@ -23,6 +24,7 @@ public class Task1 {
         averageSumOfElements(ints);
         removeEvenNumbers(ints);
    }
+
     public static void removeEvenNumbers(LinkedList<Integer> ints) {
         for (int i = 0; i < ints.size(); i++) {
             int even = ints.get(i) % 2;
@@ -33,6 +35,7 @@ public class Task1 {
         }
         System.out.print("Массив без четных чисел: " + ints);
     }
+
     public static void mixElement(LinkedList<Integer> ints) {
         ints.sort(null);
         int min = ints.get(0);
@@ -44,6 +47,7 @@ public class Task1 {
         int max = ints.get(ints.size() - 1);
         System.out.println("Максимальный элемент массива: " + max);
     }
+
     public static void averageSumOfElements(LinkedList<Integer> ints) {
         float sum = 0;
         for (Integer anInt : ints) {
