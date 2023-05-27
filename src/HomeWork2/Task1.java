@@ -1,4 +1,3 @@
-
 //1. Дана строка sql-запроса "select * from students where ".
 //Сформируйте часть WHERE этого запроса, используя StringBuilder.
 //Данные для фильтрации приведены ниже в виде json-строки.
@@ -17,9 +16,9 @@ public class Task1 {
     map.put("city","Moscow");
     map.put("age",null);
 
-    System.out.println(getQuery(map));
+    System.out.println(getRequest(map));
 }
-    public static String getQuery(Map<String, String> params) {
+    public static String getRequest(Map<String, String> params) {
         StringBuilder result = new StringBuilder();
         if (params == null || params.isEmpty())
             return result.toString();

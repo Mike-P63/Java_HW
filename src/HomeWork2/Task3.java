@@ -17,7 +17,7 @@ public class Task3 {
         String filename = "C:\\Users\\user\\IdeaProjects\\Java Start\\src\\HomeWork2\\db.txt";
         File file = new File(filename);
         try {
-            FileReader f = new FileReader(file);
+            FileReader f = new FileReader(file);// вызываем класс, предназначенный для чтения потоков символов из файла
             char[] a = new char[(int) file.length()];
             f.read(a);
             StringBuilder stringBuilder = new StringBuilder();
@@ -34,7 +34,7 @@ public class Task3 {
             System.out.println(line);
 
         } catch (Exception e) {
-            System.out.println("Error" + e);
+            System.out.println("Ошибка" + e);
         }
     }
 }
