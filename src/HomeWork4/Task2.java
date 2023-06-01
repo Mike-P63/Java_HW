@@ -8,7 +8,7 @@ import java.util.LinkedList;
 // first() - возвращает первый элемент из очереди, не удаляя.
 public class Task2 {
 
-    public static void enqueue(LinkedList<Integer> list, int num) {// помещает элемент в конец очереди
+    public static void enqueue(LinkedList<Integer> list, int num) {    // помещает элемент в конец очереди
         list.addLast(num);
     }
 

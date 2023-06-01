@@ -1,4 +1,5 @@
 package ClassWork4;
+
 // Создаем стек с пом массива
 // В нем должны быть методы size(), empty(), push(), peek(), pop().
 public class Task4 {
@@ -46,12 +47,14 @@ public class Task4 {
     }
 
     public Task4 push(int num) {
-        if (isFull())  addCapacity();
+        if (isFull()) addCapacity();
         arr[++top] = num;//  top  +=1; arr[top] = num;
         return this;
     }
 
-    private  boolean isFull(){
+    private boolean isFull() {
         return size() == capacity;
     }
+
+
 }

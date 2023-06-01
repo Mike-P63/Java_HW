@@ -13,5 +13,6 @@ public class Main {
         test.pop();
         System.out.println(test.empty());
         test.pop();
+
     }
 }
