@@ -37,8 +37,8 @@ public class Task1 {
         boolean filter = true;
         while (filter) {
             System.out.println(
-                    "Выбрать по бренду, введите - 1\n"+
-                    "Выбрать по цвету, введите - 2\n" +
+                    "Выбрать по цвету, введите - 1\n"+
+                    "Выбрать по бренду, введите - 2\n"+
                     "Посмотреть все модели, введите - 3\n" +
                     "Для выхода из каталога, введите - 0");
 
@@ -46,10 +46,10 @@ public class Task1 {
             switch (operation) {
 
                 case "1":
-                    filterBrand(notebooks, sc);
+                    filterColor(notebooks, sc);
                     break;
                 case "2":
-                    filterColor(notebooks, sc);
+                    filterBrand(notebooks, sc);
                     break;
                 case "3":
                     showCatalog(notebooks);
