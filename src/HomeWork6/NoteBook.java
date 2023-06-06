@@ -5,7 +5,6 @@ package HomeWork6;
         String model;
         String color;
 
-        // Конструктор
         public NoteBook(String brand, String model, String color){
             this.brand = brand.toUpperCase();
             this.model = model.toUpperCase();
