@@ -5,14 +5,23 @@ package HomeWork5;
 // как одного человека с разными телефонами. Вывод должен быть отсортирован
 // по убыванию числа телефонов.
 
-import java.util.*;
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//К сожалению, запись семинара так и не появилась на платформе. Хотел пересмотреть ее и понять,
+// как применить компаратор, про который Вы подробно рассказывали на семинаре. Получился только
+// вывод контактов телефонной книги.
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Task1 {
-
-    public static final Map<String, ArrayList<Integer>> phoneBook = new HashMap<>();
+    public static Map<String, ArrayList<Integer>> phoneBook = new HashMap<>();
     public static void main(String[] args) {
         fill();
-        //compare();
+        //sort();
     }
     private static void fill() {
 
@@ -28,7 +37,6 @@ public class Task1 {
         addData("Оксана Пушкарева", 333344566, phoneBook);
 
         printBook(phoneBook);
-
     }
 
     public static void addData(String key, int value, Map<String, ArrayList<Integer>> map) {
@@ -49,13 +57,6 @@ public class Task1 {
             }
             System.out.printf("%s: %s \n", item.getKey(), phones);
         }
-    }
-
-    public static int sort(Map.Entry<String, ArrayList<Integer>> o1, Map.Entry<String, ArrayList<Integer>> o2) {
-           if (o1.getValue().size() > o2.getValue().size()) return -1;
-           else if (o1.getValue().size() < o2.getValue().size()) return 1;
-           else return 0;
-
     }
 
 }
