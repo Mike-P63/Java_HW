@@ -29,7 +29,7 @@ public class Task1 {
         HashSet<NoteBook> notebooks = new HashSet<NoteBook>(
                 Arrays.asList(comp1, comp2, comp3, comp4, comp5, comp6, comp7, comp8, comp9, comp10));
 
-        Scanner sc = new Scanner(System.in, "cp866");
+        Scanner sc = new Scanner(System.in, "utf-8");
 
         System.out.println();
         System.out.println("Добро пожаловать в интернет-магазин 'Все ноутбуки у нас!'\n" +
