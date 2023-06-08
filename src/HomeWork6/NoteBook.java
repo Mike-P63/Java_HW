@@ -19,6 +19,7 @@ package HomeWork6;
             return color;
         }
 
+
         public void showInfo(){
             System.out.println(String.format("Производитель: %s\nМодель: %s\nЦвет: %s\n",
                     this.brand, this.model, this.color));
