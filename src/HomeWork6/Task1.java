@@ -32,7 +32,7 @@ public class Task1 {
         Scanner sc = new Scanner(System.in, "cp866");
 
         System.out.println();
-        System.out.println("Добро пожаловать в интернет-магазин 'AllNotebook'\n" +
+        System.out.println("Добро пожаловать в интернет-магазин 'Все ноутбуки у нас!'\n" +
                 "Здесь вы можете подобрать себе подходящий ноутбук\n");
         boolean filter = true;
         while (filter) {
