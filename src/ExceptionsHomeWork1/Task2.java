@@ -1,11 +1,14 @@
 package ExceptionsHomeWork1;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class Task2 {
+    static Random random = new Random();
+
     public static void main(String[] args) {
         int[] array1 = {7, 14, 22, 13, 2, 8};
-        int[] array2 = {8, 23, 7, 9, 27, 4, 34 };
+        int[] array2 = {8, 23, 7, 9, 27, 4,};
         System.out.println(Arrays.toString(method(array1, array2)));
     }
 
@@ -19,4 +22,5 @@ public class Task2 {
         }
         return array;
     }
+
 }
