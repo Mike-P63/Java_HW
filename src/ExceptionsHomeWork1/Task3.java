@@ -9,16 +9,16 @@ public class Task3 {
         System.out.println(Arrays.toString(method(array1, array2)));
     }
 
-    public static int[] method(int[] arr1, int[] arr2) {
-        if (arr1.length != arr2.length) {
+    public static int[] method(int[] array1, int[] array2) {
+        if (array1.length != array2.length) {
             throw new RuntimeException("Длинна массивов различна!");
         }
-        int[] array = new int[arr1.length];
-        for (int i = 0; i < arr1.length; i++) {
-            if (arr2[i] == 0) {
+        int[] array = new int[array1.length];
+        for (int i = 0; i < array1.length; i++) {
+            if (array2[i] == 0) {
                 throw new RuntimeException("Делить на ноль нельзя!");
             }
-            array[i] = arr1[i] / arr2[i];
+            array[i] = array1[i] / array2[i];
         }
         return array;
     }
